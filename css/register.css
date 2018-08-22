@@ -1,0 +1,225 @@
+/*
+* @Author: admin
+* @Date:   2018-06-19 08:57:49
+* @Last Modified by:   Cinry
+* @Last Modified time: 2018-06-24 17:13:10
+*/
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: url('../img/register/bg1.jpg') no-repeat;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 80px;
+    min-height: 560px;
+}
+a{
+	text-decoration: none;
+}
+.center{
+	width: 600px;
+	height: 547px;
+	margin: 0px auto;
+	/* margin-top: 80px; */
+}
+.logo{
+	width: 100%;
+	height: 80px;
+}
+.logo i{
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+	/* margin: 0 auto; */
+	margin-left: 265px;
+	margin-top: 5px;
+	background: url('../img/register/logo-new.png') no-repeat;
+}
+.regis{
+	width: 100%;
+	/* height: 337px; */
+	overflow: hidden;     /* 如果不设高度的话，背景色就没有，要让内容撑起来，要清除子级的浮动 */
+	background: #fff;
+	border-radius: 4px;
+	position: relative;
+}
+.regis .error{
+	position: absolute;
+	color: #ff3c00;
+	font-size: 12px;
+	clear: both;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 24px;
+	width: 150px;
+	background: url('../img/register/err_ico2.png') 0 -60px no-repeat #fff;
+	display: none;
+}
+.regis .left{
+	width: 348px;
+	float: left;
+}
+.regis .left .re{
+	display: none;
+}
+.regis .left .re,.login{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.mention p.jump1{
+	display: none;
+}
+.left .login .link{
+	width: 100%;
+	height: 20px;
+}
+.left .login .link a{
+	color: orange;
+	font-size: 10px;
+	float: right;
+	cursor: pointer;
+}
+.left input{
+	width: 306px;
+	height: 28px;
+	font-size: 14px;
+	border: 1px solid #d8d8d8;
+	border-radius: 4px;
+	padding: 5px 0 5px 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+}
+.btn a{
+	color: #fff;
+}
+.left .btn{
+	width: 306px;
+	height: 28px;
+	font-size: 18px;
+	border-radius: 4px;
+	background: #ffa800;
+	margin: 10px auto;
+	padding: 10px 10px 0 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+.left .btn:hover{
+	background:  #ffb01e;
+}
+.left p{
+	font-size: 12px;
+	color: #ccc;
+	float: right;
+	margin-top: 10px;
+}
+.left p strong{
+	color: #999;
+	cursor: pointer;
+}
+.left p strong:hover{
+	color: #666;
+	text-decoration: underline;
+}
+.left .cooper{
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+
+}
+.left .cooper p{
+	color: #999;
+	float: left;
+	width: 100%;
+}
+.cooper span{
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 80px;
+	margin: 20px 25px 0 0px;
+	text-align: center;
+	font-size: 15px;
+}
+.cooper span:hover p{
+	color: #666;
+}
+
+.cooper span i{
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+	background: url('../img/register/c_icon3.gif') no-repeat -294px 0px;
+}
+.cooper span:nth-of-type(1) i{
+	background-position: 0px 0px;
+	
+}
+.cooper span:nth-of-type(2) i{
+	background-position: -42px 0px;
+	
+}
+.cooper span:nth-of-type(3) i{
+	background-position: -294px 0px;
+}
+/* 鼠标经过变色 */
+.cooper span:nth-of-type(1):hover i{
+	background-position: 0 -42px;
+}
+.cooper span:nth-of-type(2):hover i{
+	background-position: -42px -42px;
+}
+.cooper span:nth-of-type(3):hover i{
+	background-position: -294px -42px;
+}
+
+.regis .right{
+	float: left;
+	width: 240px;	
+	height: 100%;
+}
+.regis .right span{
+	width: 200px;
+	height: 200px;
+	margin-top: 35px ;
+	margin-left:45px;
+	display: inline-block;
+}
+.regis .right img{
+	width: 150px;
+}
+.regis .right p{
+	text-align: center;
+	width: 152px;
+	color: #666;
+	margin-top: 10px;
+}
+.mention{
+	width: 150px;
+	height: 30px;
+	margin: 10px auto;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 15px;
+	line-height: 30px;
+}
+.mention p{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+.mention p a{
+	color: orange;
+	cursor: pointer;
+}
+.mention p a:hover{
+	text-decoration: underline;
+}

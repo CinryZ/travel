@@ -1,0 +1,458 @@
+/*
+* @Author: Hesia
+* @Date:   2018-06-19 08:45:36
+* @Last Modified by:   acer
+* @Last Modified time: 2018-06-24 19:46:39
+*/
+a{
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	width: 1000px;
+	margin: 0px auto;
+	margin-bottom: 60px;
+	color: #666;
+	
+}
+.gn-fly{
+	width: 960px;
+	height: 30px;
+	margin: 15px 20px;
+	line-height: 30px;
+	font-size: 18px;
+}
+.gn-fly i{
+	width: 26px;
+	height: 24px;
+	display: inline-block;
+	background: url('../img/Air-ticket-img/bg-logo.png') no-repeat 0 0;
+	background-size: auto;
+	margin-right: 12px;
+	/* vertical-align 属性设置元素的垂直对齐方式。 */
+	vertical-align: middle;
+}
+.gn-fly .cheaper{
+	background-position: -30px 0;
+}
+.fly-top{
+	width: 1000px;
+	height: 350px;
+	margin-bottom: 10px;
+}
+.book-form{
+	width: 360px;
+	height: 350px;
+	float: left;
+	background: #fff
+}
+
+.book-tab{
+	width: 360px;
+	height: 48px;
+	background: #f0f0f0;
+	line-height: 40px;
+	text-align: center;
+}
+.book-tab li{
+	float: left;
+	width: 178px;
+	height: 48px;
+	padding: 0 1px 0;
+	color: #666;
+}
+.book-tab a{
+	background-color: transparent;
+	cursor: pointer;
+}
+.book-tab  li i{
+	position: relative;
+	display: inline-block;
+	background: url('../img/Air-ticket-img/bg-logo.png') no-repeat 0 0;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: 0;
+	background-size: auto;
+	top: 4px;
+}
+.book-tab li .icon-go{
+	background-position: 0px -30px;
+}
+.book-tab li .icon-round{
+	background-position: 0px -60px;
+}
+.book-tab .bt-current{
+	padding: 0;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-top: 5px solid #ff9d00;
+	background-color: #fff;
+	height: 43px;
+}
+
+.book-content{
+	width: 319px;
+	height: 260px;
+	padding: 20px;
+	border: 1px solid #e5e5e5;
+}
+.bc-item{
+
+	height: 40px;
+	font-size: 14px;
+	padding-left: 66px;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.bc-span{
+	float: left;
+	margin-left: -66px;
+	display: inline-block;
+
+}
+.bc-wrap{
+	position: relative;
+	width: 222px;
+	height: 40px;
+}
+.bc-wrap input{
+
+	display: block;
+	width: 190px;
+	height: 20px;
+	border: 1px solid #e5e5e5;
+	padding: 9px 15px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #666;
+}
+.bc-wrap .icon-calendar{
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 11px;
+	right: 34px;
+	background: url('../img/Air-ticket-img/bg-logo.png') no-repeat -60px -30px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background-size: auto;
+}
+.bc-item-btn{
+	position: relative;
+	width: 124px;
+	margin: 0;
+	/* border: 1px solid #e5e5e5; */
+	background-color: #ff9d00;
+	float: left;
+	margin-left: 66px;
+	cursor: pointer;
+}
+.bc-item-btn .icon-search{
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url('../img/Air-ticket-img/bg-logo.png') no-repeat -60px -60px;
+	background-size: auto;
+	top: 11px;
+	left: 77px;
+}
+.bc-item-btn a{
+	font-size: 18px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+.bc-hide{
+	position: absolute;
+	padding: 10px;
+	width: 420px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	z-index: 100;
+	margin-top: -1px;
+	font-size: 12px;
+	display: none;
+}
+.bc-hide-tab{
+	position: absolute;
+	line-height: 30px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 5px;
+}
+.bc-hide-tab a{
+	display: inline-block;
+	float: left;
+	width: 69px;
+	height: 30px;
+	border-right: 1px solid #fff;
+	color: #666;
+	text-align: center;
+}
+.bc-hide-tab .bc-current{
+	background-color: #ff9d00;
+	color: #fff;
+}
+.bc-hide-con{
+	width: 420px;
+	height: 120px;
+}
+.bc-hide-con ul{
+	float: left;
+}
+.bc-hide-con ul li{
+	float: left;
+	width: 70px;
+	height: 30px;
+
+}
+/* 轮播图 */
+/* 右边图片轮播 */
+.fly-focus{
+	width: 620px;
+	height: 350px;
+	float: right;
+	position: relative;
+	/* z-index: 5;
+	background: lime; */
+}
+.sales-ftop{
+	width: 719px;
+	height: 404px;
+	background: #fff;
+}
+.slide-btn{
+	width: 40px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	margin-top: -58px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 5;
+	background: red;
+	background-color: rgba(0,0,0,0.3);
+	line-height: 100px;
+}
+.fly-focus img{
+	width: 620px;
+	height: 350px;
+}
+.btn-left{
+	left: 0;
+}
+.btn-right{
+	right: 0;
+
+}
+.slide-btn i{
+	display: inline-block;
+	margin-top: 40px;
+	width: 10px;
+	height: 18px;
+	background: url('../img/Free-walk-img/global.png') no-repeat -70px -90px;
+	overflow: hidden;
+}
+.btn-right i{
+	background-position: -85px -90px;
+}
+.slide-bottom{
+	height: 32px;
+	position: relative;
+	/* background: blue; */
+	z-index: 5;
+	bottom: 83px;
+}
+.slide-bottom .slide-bc{
+	position: absolute;
+	height: 32px;
+	width: 139px;
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	line-height: 32px;
+	margin: 0 auto;
+	left: 235px;
+	color: #fff;
+
+}
+/*  */
+.mark{
+	width: 1000px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.mark ul{
+	border: 1px solid #e5e5e5;
+	background-color: #f6f6f6;
+	height: 56px;
+	text-align: center;
+	font-size: 16px;
+}
+.mark li{
+	float: left;
+	padding: 10px 0;
+	width: 331px;
+	height: 38px;
+	line-height: 38px;
+	position: relative;
+	display: list-item;
+	/* border-right: 1px solid #e5e5e5; */
+}
+.mark li+li:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 1px;
+	height: 28px;
+	background-color: #d1d1d1;
+}
+.mark span{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	width: 331px;
+	height: 30px;
+	margin-top: 5px;
+}
+.mark span strong{
+	color: #ff9d00;
+}
+.mark li i{
+	display: inline-block;
+	background: url('../img/Air-ticket-img/bg-logo.png') no-repeat 0 0;
+	background-size: auto;
+	width: 40px	;
+	height: 34px;
+	left: 60px;
+	overflow: hidden;
+	position: absolute;
+}
+.mark li .icon-1{
+	background-position: 0 -90px;
+}
+.mark li .icon-2{
+	background-position: -60px -90px;
+}
+.mark li .icon-3{
+	background-position: -120px -90px;
+}
+/* 特价内容 */
+.tj-fly{
+	width: 962px;
+	height: 364px;
+	padding: 20px 19px;
+	border: 1px solid #e5e5e5;
+}
+.tj-place{
+	float: left;
+	width: 960px;
+	height: 140px;
+	margin-bottom: 10px;
+	
+}
+.tj-place a{
+	margin-right: 15px;
+	text-decoration: none;
+	position: relative;
+}
+.tj-place img{
+	width: 225px;
+	height: 140px;
+}
+.tj-title{
+	position: absolute;
+	width: 195px;
+	height: 30px;
+	left: 0;
+	right: 0;
+	bottom: 3px;
+	line-height: 30px;
+	color: #fff;
+	padding: 0 15px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.6);
+}
+.tj.title span{
+	line-height: 30px;
+	text-align: center;
+}
+.tt-left{
+	float: left;
+	left: 10px;
+}
+.tt-right{
+	float: right;
+	right: 10px;
+}
+/* tab栏 */
+.tj-nav{
+	height: 40px;
+	background-color: #f6f6f6;
+	line-height: 40px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	clear: both;
+}
+.tj-nav a{
+
+	float: left;
+	display: inline-block;
+	margin: 0 5px 0 18px;
+	padding: 0 10px;
+	position: relative;
+	color: #666;
+}
+.tj-nav .tj-current{
+	background-color: #ff9d00;
+	color: #fff;
+}
+/* tab内容 */
+.nav-content{
+	width: 960px;
+	height: 152px;
+}
+.nav-content ul{
+	float: left;
+	height: 152px;
+}
+.nav-content ul li{
+	float: left;
+	width: 264px;
+	padding: 5px 30px 5px 25px;
+	line-height: 28px;
+	border-left: 1px solid #e5e5e5;
+	position: relative;
+}
+.s1{
+	font-size: 14px;
+	color: #666;
+	float: left;
+}
+.s2{
+	
+	font-size: 14px;
+	color: #666;
+	margin-left: 60px;
+	position: absolute;
+}
+.s3{
+	font-size: 20px;
+	color: #ff9d00;
+	float: right;
+}
+
+#calendar{
+	position:relative;
+	z-index:99;
+	background:#fff;
+	display: none;
+}

@@ -1,0 +1,376 @@
+input{
+	outline: none;
+}
+.header .logo{
+    display: block;
+    width: 118px;
+    height: 56px;
+    position: relative;
+    background: url(../../img/des/header-small-sprites3.png) 0px 12px;
+}
+/*旅行商城的小条  下三角*/  
+.header>.nav>.left>li:nth-of-type(4):hover::after {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 1px;
+    background: #eaeaea;
+    left: 114px;
+    bottom: -3px;
+}
+.header .nav-down .hotspot, .header .nav-down .hotspot1{
+	top: 3px;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+}
+.nav .left .icon-xiala{
+    width: 11px;
+    height: 9px;
+    display: inline-block;
+    background: url(../../img/des/down.png) no-repeat;
+    background-size: 8px;
+}
+.con{
+	width: 1067px;
+	margin: 60px auto 115px;
+}
+.hotel .title,.topic .title{
+	font-size: 24px;
+	color: #333;
+}
+.hotel .inputs{
+	margin: 45px 0px 70px;
+	height: 50px;
+}
+.hotel .inputs>div{
+	float: left;
+	height: 47px;
+	line-height: 47px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	margin-right: 10px;
+	padding: 0px 10px 0px 17px;
+	position: relative;
+}
+.hotel .inputs .inp1{
+	width: 300px;
+}
+.hotel .inputs .focus1{
+	border-color: #ff9d00;
+    box-shadow: 0 0 3px rgba(255,157,0,.5);
+}
+.hotel .inputs .inp1 .des{
+	width: 293px;
+	height: 37px;
+	border-width: 0px;
+	font-size: 18px;
+	color: #666;
+}
+.hotel .inputs .inp1 .inp1-alert{
+	position: absolute;
+	border: 1px solid #999;
+	padding: 11px 20px;
+	background: #fff;
+	border-radius: 4px;
+	width: 750px;
+    height: 306px;
+    z-index: 100;
+    left: -2px;
+    top: 48px;
+    display: none;
+}
+.hotel .inputs .inp1 dt{
+	font-size: 14px;
+    color: #666;
+    float: left;
+    font-weight: bold;
+    height: 60px;
+}
+.hotel .inp1 dd{
+	float: right;
+    width: 649px;
+    line-height: 32px;
+    position: relative;
+    top: 8px;
+}
+.hotel .inp1 dd a{
+	font-size: 14px;
+    color: #666;
+    display: inline-block;
+    width: 104px;
+}
+.hotel .inp1 dd a:hover{
+	color: #ff9d00;
+}
+.hotel .inputs .inp2,.hotel .inputs .inp3,.hotel .inputs .inp4{
+	width: 176px;
+	
+}
+.hotel .inputs .inp2 .ck-date,.hotel .inputs .inp3 .le-date,.hotel .inputs .inp4 .num{
+	width: 170px;
+	height: 37px;
+	border-width: 0px;
+	font-size: 18px;
+	color: #666;
+}
+.hotel .inputs .inp2 .ck-date,.hotel .inputs .inp3 .le-date{
+	position: relative;
+}
+.hotel .inputs .inp2>div{
+	position: absolute;
+	display: none;
+}
+.hotel .inputs .inp3>div{
+	position: absolute;
+	display: none;
+}
+.hotel .inputs>div>span{
+	background: url(../../img/des/header-sprites3.png) 0px -139px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	right: 10px;
+    top: 14px;
+}
+.hotel .inputs .inp4 span{
+	width: 19px;
+	background-position: -88px -80px;
+}
+.hotel .inputs .inp4 .inp4-choice{
+	border: 1px solid #ff9d00;
+    box-shadow: 0 0 3px rgba(255,157,0,.5);
+    padding: 20px 15px;
+    position: absolute;
+    color: #666;
+    font-size: 12px;
+    width: 510px;
+    height: 140px;
+    right: 0px;
+    background: #fff;
+    display: none;
+}
+.hotel .inputs .inp4 .up{
+	border-bottom: 1px solid #c6c6c6;
+	padding-bottom: 18px;
+}
+.hotel .inputs .inp4 .up-father{
+	margin-left: 40px;
+    margin-right: 10px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    padding: 5px 7px;
+}
+.hotel .inputs .inp4 b{
+	width: 11px;
+    height: 9px;
+    display: inline-block;
+    background: url(../../img/des/down.png) no-repeat 8px;
+    background-size: 8px;
+    border-left: 1px solid #666;
+    margin-left: 21px;
+    padding-left: 10px;
+    cursor: pointer;
+    position: relative;
+} 
+.hotel .inp4 b ul{
+	position: absolute;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    width: 95px;
+    right: -11px;
+    top: 17px;
+    font-size: 12px;
+    font-weight: normal;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 100;
+    display: none;
+}
+.hotel .inp4 ul li{
+	height: 28px;
+    line-height: 28px;
+    padding-left: 12px;
+}
+.hotel .inp4 ul li:hover{
+	background: rgb(238,238,238);
+}
+.hotel .inputs #confirm{
+	float: right;
+    margin-top: 31px;
+    border-radius: 4px;
+    background: #ff9d00;
+    border: 0px;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.hotel .inputs #confirm:hover{
+	background: #ffc107;
+}
+.hotel .inputs .search{
+	width: 36px;
+	height: 48px;
+	border: 5px;
+	background: #ff9d00;
+	position: relative;
+}
+.hotel .inputs .search:hover{
+	background: #ffc107;
+}
+.hotel .inputs .search a{
+	background: url(../../img/des/search.png);
+	background-size: 30px;
+	position: absolute;
+	left: 17px;
+	width: 30px;
+	height: 30px;
+	top: 9px;
+}
+.hotel .left, .hotel .center, .hotel .right{
+	height: 20px;
+    width: 280px;
+    margin-right: 102px;
+    display: inline-block;
+}
+.hotel .right{
+	margin-right: 0px;
+}
+.hotel .left>div, .hotel .center>div, .hotel .right>div{
+	float: right;
+	width: 225px;
+	color: #666;
+}
+.hotel .big{
+	font-size: 18px;
+}
+.hotel .small{
+	font-size: 16px;
+}
+.hotel .left span,.hotel .center span,.hotel .right span{
+	display: inline-block;
+	width: 35px;
+	height: 42px;
+	background: url(../../img/des/hotel.png) no-repeat;
+}
+.hotel .center span{
+	background-position: -39px 0px;
+	width: 43px;
+}
+.hotel .right span{
+	background-position: -89px 0px;
+	width: 43px;
+}
+/*
+ * 主题酒店
+ */
+.topic{
+	overflow: hidden;
+}
+.topic .title{
+	width: 100px;
+	margin: 60px auto 25px;
+}
+.topic .one{
+	border-bottom: 1px solid #e4e4e4;
+	height: 66px;
+}
+.topic .one li{
+	float: left;
+	width: 177px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	background: #fff;
+}
+.topic .one li a{
+	font-size:18px;
+	color: #666;
+	width: 177px;
+	height: 65px;
+	display: inline-block;
+}
+.topic .one .current{
+	border-bottom: 4px solid #ff9d00;
+}
+.topic .two{
+	margin-top: 20px;
+	display: none;
+}
+.topic .two-current{
+	display: block;
+}
+.topic .two li{
+	width: 342px;
+	height: 240px;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	position: relative;
+}
+.topic .two li::after{
+	content: '';
+    position: absolute;
+    height: 22px;
+    width: 100%;
+    background: url(../../img/des/floating-card-shadow.png) 37px no-repeat;
+    bottom: -22px;
+}
+.topic .two li:nth-child(3){
+	margin-right: 0px;
+}
+.topic .two li:nth-child(6){
+	margin-right: 0px;
+}
+.topic .two li img,.topic .two .shadow{
+	width: 342px;
+	height: 240px;
+}
+.topic .two li a{
+	display: inline-block;
+	width: 342px;
+	height: 240px;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+.topic .two .up{
+	font-size: 24px;
+	margin-left: -20px;
+    margin-top: -23px;
+}
+.topic .two .down{
+	font-size: 18px;
+	margin-left: -14px;
+    margin-top: 8px;
+}
+.topic .two li a span{
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+}
+.topic .two .shadow{
+	left: 0%;
+    top: 0%;
+	position: absolute;
+	display: inline-block;
+	background: rgba(0,0,0,0.3);
+}
+.sale{
+	margin-top: 120px;
+}
+.sale .two .up{
+	left: 35px;
+    top: 34px;
+    font-size: 18px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 5px 12px;
+}
+.sale .two .down{
+	left: 40px;
+    top: 181px;
+    font-size: 14px;
+    text-align: left;
+}

@@ -1,0 +1,507 @@
+a{
+	text-decoration: none;
+}
+.header .logo{
+    display: block;
+    width: 118px;
+    height: 56px;
+    position: relative;
+    background: url(../../img/des/header-small-sprites3.png) 0px 12px;
+}
+/*旅行商城的小条  下三角*/
+.header>.nav>.left>li:nth-child(4):hover::after {
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 1px;
+    background: #eaeaea;
+    left: 113px;
+    bottom: -3px;
+}
+.header .nav-down .hotspot, .header .nav-down .hotspot1{
+	top: 3px;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+}
+.nav .left .icon-xiala {
+    width: 11px;
+    height: 9px;
+    display: inline-block;
+    background: url(../../img/des/down.png) no-repeat;
+    background-size: 8px;
+}
+.header .head-footer{
+	width: 1067px;
+	margin: 17px auto;
+	height: 347px;
+}
+.header .head-footer .left{
+	float: left;
+	position: relative;
+}
+.header .head-footer .left>ul li{
+	width: 260px;
+	padding: 15px 15px;
+	border-top: 1px solid #d6d6d6;
+	border-right: 1px solid #d6d6d6;
+	border-left: 1px solid #d6d6d6;
+	color: #666;
+	font-size: 13px;
+	position: relative;
+}
+.head-footer .left>ul li:hover{
+	color: #ff9d00;
+}
+.head-footer .left>ul li:hover::after{
+	content: '';
+    position: absolute;
+    width: 1px;
+    height: 47px;
+    background: white;
+    right: -1px;
+    top: 0px;
+    z-index: 100;
+}
+.header .head-footer .left>ul li:last-child{
+	border-bottom: 1px solid #d6d6d6;
+}
+.header .head-footer .left span{
+	display: inline-block;
+    width: 8px;
+    height: 13px;
+    float: right;
+    background: url(../../img/des/new-gl-icon6.png) -20px -38px no-repeat;
+}
+/* 滑动显示的内容 */
+.header .head-footer .left .left-one{
+	position: absolute;
+    left: 290px;
+    top: -1px;
+    z-index: 99;
+    background: white;
+    display: none;
+    border: 1px solid #d6d6d6;
+}
+.header .head-footer .left .left-one li{
+	width: 300px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    border: 1px solid transparent;
+}
+.header .head-footer .left .left-one li p,.header .head-footer .left .left-one li a{
+	color: #999;
+}
+.header .head-footer .left .left-one li a:hover{
+	color: #ff9d00;
+	text-decoration: underline;
+}
+.header .head-footer .left .left-one li p{
+	display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.header .head-footer .left .left-one li .one{
+	font-size: 13px;
+	margin-right: 20px;
+}
+.header .head-footer .left .left-one li:nth-child(1) .one,.header .head-footer .left .left-one li:nth-child(2) .one,.header .head-footer .left .left-one li:nth-child(3) .one{
+	color: #ff9d00;
+}
+.header .head-footer .left .left-one li:nth-child(1) p,.header .head-footer .left .left-one li:nth-child(2) p,.header .head-footer .left .left-one li:nth-child(3) p{
+	color: #ff9d00;
+}
+.header .head-footer .right{
+	float: right;
+}
+.header .head-footer .left li:hover span{
+    background: url(../../img/des/new-gl-icon6.png) -28px -38px no-repeat;
+}
+.header .head-footer .left .search{
+	width: 288px;
+	border: 2px solid #ff9d00;
+	margin: 10px auto 0px;
+	height: 40px;
+	position: relative;
+}
+.header .head-footer .left .search a{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 8px;
+	top: 8px;
+	background: url(../../img/des/new-gl-icon6.png) -20px -60px;
+}
+.header .head-footer .left .search input{
+	width: 242px;
+    height: 36px;
+    position: absolute;
+    left: 44px;
+    border: none;
+    outline: none;
+}
+.header .head-footer .left .l-bottom{
+	width:288px;
+	height: 65px;
+	border-bottom: 1px solid #e3e3e3;
+	margin: 15px 0px;
+}
+.header .head-footer .left .small-logo {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../../img/des/logo_gonglve_v6.png);
+	background-size: 50px;
+	margin-right: 13px;
+}
+.header .head-footer .left .l-bottom a{
+	color: #ff9d00;
+	float: left;
+	font-size: 18px;
+}
+.header .head-footer .left  .l-bottom ul{
+	float: left;
+	width: 225px;
+	margin-left: -7px;
+}
+.header .head-footer .left  .l-bottom li{
+	width: 68px;
+    float: left;
+    margin: 5px auto;
+    border-right: 1px solid #D6D6D6;
+    font-size: 12px;
+    color: #666;
+    padding: 0 3px;
+}
+.header .head-footer .left  .l-bottom li:last-child{
+	border-right: 1px solid transparent;
+}
+/*
+ * 轮播图
+ */
+.head-footer .right {
+	float: right;
+	width: 700px;
+	height: 340px;
+	position: relative;
+	overflow: hidden;
+}
+.head-footer .right ul {
+	width: 9999px;
+	position: absolute;
+}
+.head-footer .right ul li {
+	float: left;
+}
+.head-footer .right ol{
+	width: 256px;
+	position: absolute;
+	bottom: 27px;
+    right: -31px;
+}
+.head-footer .right ol li {
+	width: 10px;
+    height: 10px;
+    margin-right: 22px;
+    border-radius: 50%;
+    float: left;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background: white;
+}
+.head-footer .right .current {
+	background: url('../../img/des/header-sprites3.png') -63px -143px;
+}
+.head-footer .right .recircle li{
+	background: transparent;
+}
+.head-footer .right .second,.head-footer .right .second:nth-child(1){
+    padding: 4px;
+    border: 2px solid #ff9d60;
+    position: relative;
+    left: -4px;
+    top: 4px;
+    margin-right: 12px;
+}
+/*
+ * 主体
+ */
+.con{
+	width: 1067px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.con .con-left{
+	width: 160px;
+	float: left;
+}
+
+.con .con-left .con-l-head{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+    color: #333
+}
+.con .con-left .one-ul{
+	width: 160px;
+	height: 47px;
+	line-height: 47px;
+	border-top: 1px solid #D6D6D6;
+	border-bottom: 1px solid #D6D6D6;
+	padding: 5px 0px;
+	margin-left: -3px;
+	margin-bottom: 26px;
+}
+.con .con-left .one-ul a{
+	color: #333;
+	font-size: 13px;
+    margin-right: 24px;
+    line-height: 33px;
+}
+.con .con-left .one-ul a:hover{
+	color: #ff9d00;
+	text-decoration: underline;
+}
+.con .con-left .one-ul li{
+	cursor: pointer;
+    position: relative;
+    margin-top: -8px;
+    top: 50%;
+    width: 52px;
+    height: 33px;
+	line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    position: relative;
+    border-bottom: 3px solid transparent;
+}
+.con .con-left .one-ul .bcchange{
+    border-bottom: 3px solid #ff9d00;
+    color: #ff9d00;
+}
+.con .con-left .one-ul .fp{
+	display: inline-block;
+    width: 52px;
+    height: 16px;
+	line-height: 16px;
+    border-right: 1px solid #D6D6D6;
+}
+.con .con-left .one-ul li:nth-child(3) .fp{
+	border-right: 1px solid transparent;
+}
+.con .con-left .icon-xiala {
+    width: 11px;
+    height: 9px;
+    display: inline-block;
+    background: url(../../img/des/down.png) no-repeat;
+    background-size: 8px;
+    margin-left: 2px;
+}
+.con .con-left .one-ul li .fp:last-child{
+    border-right: 1px solid transparent;
+}
+.con .con-left .one-ul .one-ul-con{
+	width: 456px;
+	position: absolute;
+	border: 1px solid #d6d6d6;
+	left: 4px;
+    top: 44px;
+    padding: 16px 11px;
+    background: white;
+    z-index: 99;
+    text-align: left;
+    display: none;
+}
+.con .con-left .update{
+	color:#666;
+	font-size: 12px;
+	text-align: center;
+	width: 132px;
+	padding: 3px 0px;
+}
+.con .con-left .update-bottom{
+	background: #ebebeb;
+    border-radius: 30px;
+    height: 24px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+.con .con-left .update-bottom span{
+	display: inline-block;
+	background:url(../../img/des/new-gl-icon6.png) -20px -90px;
+	width: 24px;
+	height: 24px;
+	float: left;	
+}
+.con .con-left .update-bottom p{
+	float: left;
+	text-align: left;
+	width: 100px;
+	padding: 4px 6px;
+}
+.con .con-left .two-ul li{
+	width: 160px;
+	border-top: 1px solid #f7f7f7;
+	padding: 20px 0px;
+	font-size: 18px;
+}
+.con .con-left .two-ul li a{
+	margin-left: 15px;
+	color: #333;
+	font-size: 14px;
+    position: relative;
+    top: -2px;
+}
+.con .con-left .two-ul span{
+	color: #ff9d00;
+	font-weight: bold;
+	font-size: 19px;
+}
+.con .con-left .two-ul li a:hover{
+	text-decoration: underline;
+	color: #ff9d00;
+}
+/*
+ * 主体内容右半部分
+ */
+.con .con-right{
+	width: 839px;
+	float: right;
+}
+.con .con-right .right-head{
+	font-size: 21px;
+    color: #333;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.con .con-right .content{
+	display: block;
+	height: 366px;
+	position: relative;
+    top: -1px;
+    box-sizing: border-box;
+}
+.con .con-right .content a{
+	border-width: 0px;
+	padding: 19px 20px 0px;
+	margin-left: -20px;
+}
+.con .con-right .content a:hover{
+	background: #f1f1f1;	
+}
+.con .con-right .content a:hover p.big{
+	color: #ff9d00;
+}
+.con .con-right .content .icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/des/new-gl-icon6.png) 0px -20px no-repeat;
+	margin-right: 11px;
+	position: relative;
+    top: 3px;
+}
+.con .con-right .content .small{
+	color: #666;
+	float: left;
+}
+.con .con-right .content .small-right{
+	float: right;
+    border: 1px solid #ff9d00;
+    border-radius: 30px;
+    width: 130px;
+    padding-left: 14px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+}
+.con .con-right .content .small-right .icon{
+	background-position: -19px -115px;
+	margin-left: 10px;
+}
+.con .con-right .content .small .icon-p{
+	color:#ff9d00;
+	margin-right: 4px;
+}
+.con .con-right .content .big{
+	font-size: 21px;
+	color: #333;
+	margin: 20px 0px 20px;
+	clear: both;
+}
+.con .con-right .content .detail{
+	line-height: 29px;
+	font-size: 14px;
+}
+.con .con-right .content ul li{
+	float: left;
+	margin-right: 14px;
+	margin-top: 20px;
+}
+.con .con-right .content .times{
+	float: right;
+	top: 77px;
+    position: relative;
+    font-size: 13px;
+}
+.con .con-right .divide{
+	border: 1px solid #D6D6D6;
+	position: relative;
+    top: 1px;
+    margin-top: 10px;
+}
+.con .con-right .part2 img{
+	float: left;
+}
+.con .con-right .part2 .detail{
+	float: right;
+	width: 574px;
+}
+.con .con-right .part2 .small-right{
+	width: 110px;
+}
+.con .con-right .part2 .times img{
+	width: 20px;
+	border-radius: 50%;
+}
+.con .con-right .part2 .times .icon-p{
+	margin: 0px 8px;
+}
+.con .clear-both{
+	clear: both;
+}
+.con .con-bottom{
+	position: relative;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 840px;
+    background: #fff5e5;
+    left: 228px;
+    margin-top: 14px;
+   	margin-bottom: 90px;
+}
+.con .con-bottom a{
+	display: inline-block;
+	width: 100%;
+    height: 45px;
+    color: #333;
+}
+.con .con-bottom a:hover{
+	background: #f1f1f1;
+}
+.con .con-bottom span{
+	margin-left: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../../img/des/mfwask-2016sprite_v3.png) 0px -592px;
+}
+.con .con-bottom a:hover span{
+    background: url(../../img/des/mfwask-2016sprite_v3.png) 0px -620px;
+}
